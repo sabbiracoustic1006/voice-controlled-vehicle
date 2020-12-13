@@ -2,13 +2,6 @@
 
 In this project, we used voice command to control the movement of the car by processing the voice commands in MATLAB and maintaining MATLAB-ARDUINO communication via Bluetooth module.
 
-* We have used four voice commands(FORWARD,RIGHT,LEFT,STOP) to control the wheel chair
-* First, the voice commands are saved as .MAT file in MATLAB from a specific user to use as reference
-* Then voice commands from user are taken and processed by matlab to produce corresponding command codes
-* For serial communication, we used HC-05 Bluetooth Module which is paired with matlab using the Bluetooth of PC
-* Corresponding Command codes are sent to ARDUINO through the Bluetooth module
-* Then arduino processed the received code to generate the required logic for the motor driver to control the car according to user’s intended direction
-
 Below the matlab code for prerecording MFCCs for audio commands is shown.
 
 ```markdown
