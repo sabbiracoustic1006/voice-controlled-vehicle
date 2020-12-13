@@ -70,5 +70,7 @@ end
 err = min(error,[],2);
 result = find(err == min(err))
 fprintf(a,result);
+
+More details can be found at this [link](https://sabbiracoustic1006.github.io/)
 ```
 
