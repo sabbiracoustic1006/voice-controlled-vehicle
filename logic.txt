@@ -1,0 +1,4 @@
+0110 - front
+0111 - right
+1110 - left
+1111 - stop
